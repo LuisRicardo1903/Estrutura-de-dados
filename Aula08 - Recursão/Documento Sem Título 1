@@ -1,0 +1,9 @@
+1) Recursão é um método para se udar repetição em linguagens que não possuem esse recurso. Mas não somente isso, também serve para executar um método antes e depois da sua chamada dentro do mesmo método.
+
+2) Inicialização da Variável, teste de parada e transformação da varíavel.
+
+3) Ocorre antes do ponto de recursão "mostraPares" e é possivel vizualizar quando a variável de controle (n) está sendo chamada com  (n - 1), isso pode significar que está sendo executada no empilhamento.
+
+4) Os parâmetros do método são (int *v e int n); A variável de controle é n; A chamada do método para garantir a recursão é "contaPares", que pode ser chamada OU dentro do If OU dentro do else.
+
+5) O parâmetro é (Celula *l); O tipo de retorno é int; A variável de controle é o "l" e a chamada para garantir a recursão é dada por "return 1 + contaPares(l->prox);" OU "return 0 + contaPares(l->prox);" 
